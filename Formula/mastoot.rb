@@ -1,25 +1,25 @@
 class Mastoot < Formula
   desc "An aesthetically-driven Mastodon TUI client"
   homepage "https://github.com/ReflectionL/mastoot"
-  version "0.2.0"
+  version "0.3.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ReflectionL/mastoot/releases/download/v0.2.0/mastoot-aarch64-apple-darwin.tar.xz"
-      sha256 "37d3a6d2b87a81bf6556f719c9674a3402dfdda34474819f8c43e771a3c6d2ce"
+      url "https://github.com/ReflectionL/mastoot/releases/download/v0.3.2/mastoot-aarch64-apple-darwin.tar.xz"
+      sha256 "987b060e3f63c66cbca6c414045e87939feaefc5f54bd50d6fa5ca12e9b4fa28"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ReflectionL/mastoot/releases/download/v0.2.0/mastoot-x86_64-apple-darwin.tar.xz"
-      sha256 "f63b0670ed5981ab36fe0840e0b6ad48219b4b0cc8b54047a47fcb651e007d0b"
+      url "https://github.com/ReflectionL/mastoot/releases/download/v0.3.2/mastoot-x86_64-apple-darwin.tar.xz"
+      sha256 "13ba7c633953e1c9e1aa66847bd8e9a6a9bdd2430d6de916feaaa62938f6c777"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ReflectionL/mastoot/releases/download/v0.2.0/mastoot-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "2260374ed31b418e763cb546d224f838128570a67d565b73a00fab0107a1725a"
+      url "https://github.com/ReflectionL/mastoot/releases/download/v0.3.2/mastoot-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "cb1aa6d0a0369fc690776be19000b68da432f8ec054dd2a23397117977b66387"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ReflectionL/mastoot/releases/download/v0.2.0/mastoot-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "08aa7cf799caeff17013711c8fef972982f65c5f075a809115fa2cf5f260cf18"
+      url "https://github.com/ReflectionL/mastoot/releases/download/v0.3.2/mastoot-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4ffe762002a09dee78063799d6fe5796a872da35a9fc167f18c0a051c05807b8"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
